@@ -1,0 +1,10 @@
+let compra = 200;
+let total;
+
+if (compra >= 200) {
+    total = compra - (compra * 0.10);
+} else {
+    total = compra;
+}
+
+console.log("Total da compra: R$ " + total.toFixed(2));
